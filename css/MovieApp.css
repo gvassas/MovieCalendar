@@ -1,0 +1,69 @@
+
+
+#calendar {
+    height:60%;
+    width:80%;
+    float:left;
+}
+
+.activeDay {
+    outline:solid red;
+}
+
+.day {
+    margin:1px;
+    padding: 10px;
+    border:solid;
+    border-color:darkorange;
+    display:inline-table;
+    width:10%;
+    height:120px;
+}
+
+.dayTitle:hover
+{
+    background-color:lightblue;
+}
+.title, .time {
+    font-size:12px;
+    text-align: left;
+}
+.time {
+    font-weight: bold;
+}
+/*.dayTitle {*/
+    /*text-align: left;*/
+    /*vertical-align: top;*/
+    /**/
+/*}*/
+
+.today {
+    text-align: right;
+    vertical-align: top;
+}
+
+.weekDays div{
+    text-align: center;
+    margin:1px;
+    padding: 10px;
+    border:solid;
+    display:inline-block;
+    width:10%;
+    height:100px;
+}
+
+aside {
+   border:solid;
+    padding:2%;
+    width:15%;
+    height:60%;
+    float:right;
+}
+
+nav {
+    float:left;
+    border:solid 2px;
+    padding:5px;
+    display:inline-block;
+    width: 90%;
+}
